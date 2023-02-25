@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.register-form {
+    width: 400px;
+    background: url(img/chalten.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family:'Roboto', sans-serif;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.register-form h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.info {
+    width: 100%;
+    background: #323031;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    border: 2px solid #177E89;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.register-form p {
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.register-form a {
+    color: white;
+    text-decoration: none;
+}
+
+.register-form a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.register-form .botons {
+    width: 100%;
+    background: #323031;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
