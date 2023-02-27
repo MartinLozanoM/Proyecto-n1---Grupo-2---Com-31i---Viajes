@@ -25,6 +25,7 @@ footer {
 
 }
 
+
 .box_footer .text {
     max-width: 380px;
     margin-top: 20px;
@@ -33,16 +34,17 @@ footer {
     font-size: 18px;
 }
 
-.box_footer .h2 {
+.box_footer h2 {
     margin-bottom: 30px;
     color: #343434;
     font-weight: 700;
 }
 
-.box_footer .a {
+.box_footer a {
     margin-top: 10px;
     color: #7a7a7a;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .box_footer a:hover {
@@ -52,4 +54,25 @@ footer {
 .box_footer a .fab {
     font-size: 20px;
 
+}
+
+.box_copyrigth {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+
+}
+
+.box_copyrigth p {
+    margin-top: 20px;
+    color: #7a7a7a;
+    text-align: center;
+
+}
+
+.box_copyrigth hr {
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
 }
