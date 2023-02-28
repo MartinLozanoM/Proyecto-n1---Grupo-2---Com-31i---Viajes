@@ -6,7 +6,7 @@
 
 .register-form {
     width: 400px;
-    background: url(img/chalten.jpg) no-repeat 0px 0px;
+    background: url(./assets/img/chalten.jpg) no-repeat 0px 0px;
     background-size: cover;
     background-position: center;
     padding: 30px;
@@ -36,10 +36,10 @@
 }
 
 .register-form p {
-    height: 40px;
+    height: 35px;
     text-align: center;
-    font-size: 16px;
-    line-height: 40px;
+    font-size: 15px;
+    line-height: 35px;
 }
 
 .register-form a {
