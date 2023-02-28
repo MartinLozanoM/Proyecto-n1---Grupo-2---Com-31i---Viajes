@@ -81,3 +81,12 @@ footer {
     height: 1px;
     background-color: #7a7a7a;
 }
+.developers{
+    margin-top: 10px;
+    color: #7a7a7a;
+    font-weight: 600;
+}
+
+.developers a{
+    margin-left: 10px;
+}
