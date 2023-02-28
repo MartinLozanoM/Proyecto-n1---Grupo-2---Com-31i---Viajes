@@ -10,18 +10,23 @@ footer {
     justify-content: space-between;
     max-width: 1200px;
     margin: auto;
-    margin-top: 100px;
 }
 
 .box_footer {
     display: flex;
     flex-direction: column;
-    padding: 40px;
+    padding: 20px;
     
 }
 
 .box_footer .logo {
     width: 200px;
+
+}
+
+.box_footer .logo img {
+    width: 380px;
+    height: auto;
 
 }
 
@@ -48,7 +53,7 @@ footer {
 }
 
 .box_footer a:hover {
-    opacity: 10;
+    opacity: 0.8;
 }
 
 .box_footer a .fab {
@@ -60,12 +65,12 @@ footer {
     max-width: 1200px;
     margin: auto;
     text-align: center;
-    padding: 0px 40px;
+    padding: 0px 20px;
 
 }
 
 .box_copyrigth p {
-    margin-top: 20px;
+    margin-top: 10px;
     color: #7a7a7a;
     text-align: center;
 
