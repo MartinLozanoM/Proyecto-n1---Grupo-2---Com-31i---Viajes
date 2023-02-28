@@ -1,0 +1,9 @@
+/* .card {
+  background: linear-gradient(to bottom right, #db3a34, #ffc857);
+  color: #323031;
+} */
+
+.card {
+  background-color: #ffc857;
+  border: 10px solid #db3a34;
+}

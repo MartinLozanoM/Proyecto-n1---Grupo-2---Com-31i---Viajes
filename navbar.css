@@ -1,0 +1,77 @@
+.navbar-collapse {
+    justify-content: right;
+}
+
+.navbar-nav {
+    padding-right: 60px;
+}
+
+.header {
+    position: fixed;
+    width: 100%;
+}
+
+.nav-item {
+    padding-right: 8%;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    border: 2px solid;
+    border-color: #318aac;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.nav-link:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    background: #318aac;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+    background: #ffffff4d;
+    transition: all 1s ease;
+}
+
+.nav-link:hover:before {
+    width: 100%;
+}
+
+.button {
+    color: #fff !important;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 0.5em 1.2em;
+    border: 3px solid;
+    border-color: #318aac;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+}
+
+.button:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    background: #318aac;
+    left: 0px;
+    width: 0px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    transition: all 1s ease;
+}
+
+.button:hover:before {
+    width: 100%;
+}
+
+.lorem {
+    padding-top: 4%;
+}
