@@ -1,92 +1,85 @@
 /* style footer */
 footer {
-    width: 100%;
-    padding: 50px 0px;
-    background-color: #FFC857;
+  width: 100%;
+  padding: 50px 0px;
+  background-color: #084c61;
 }
 .container_footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
 }
 
 .box_footer {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 
 .box_footer .logo {
-    width: 200px;
-
+  width: 200px;
 }
 
 .box_footer .logo img {
-    width: 380px;
-    height: auto;
-
+  width: 380px;
+  height: auto;
 }
 
-
 .box_footer .text {
-    max-width: 380px;
-    margin-top: 20px;
-    font-weight: 500;
-    color: #7a7a7a;
-    font-size: 18px;
+  max-width: 380px;
+  margin-top: 20px;
+  font-weight: 500;
+  color: #7a7a7a;
+  font-size: 18px;
 }
 
 .box_footer h2 {
-    margin-bottom: 30px;
-    color: #343434;
-    font-weight: 700;
+  margin-bottom: 30px;
+  color: #343434;
+  font-weight: 700;
 }
 
 .box_footer a {
-    margin-top: 10px;
-    color: #7a7a7a;
-    font-weight: 600;
-    text-decoration: none;
+  margin-top: 10px;
+  color: #7a7a7a;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .box_footer a:hover {
-    opacity: 0.8;
+  opacity: 0.8;
 }
 
 .box_footer a .fab {
-    font-size: 20px;
-
+  font-size: 20px;
 }
 
 .box_copyrigth {
-    max-width: 1200px;
-    margin: auto;
-    text-align: center;
-    padding: 0px 20px;
-
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 20px;
 }
 
 .box_copyrigth p {
-    margin-top: 10px;
-    color: #7a7a7a;
-    text-align: center;
-
+  margin-top: 10px;
+  color: #7a7a7a;
+  text-align: center;
 }
 
 .box_copyrigth hr {
-    border: none;
-    height: 1px;
-    background-color: #7a7a7a;
+  border: none;
+  height: 1px;
+  background-color: #7a7a7a;
 }
-.developers{
-    margin-top: 10px;
-    color: #7a7a7a;
-    font-weight: 600;
+.developers {
+  margin-top: 10px;
+  color: #7a7a7a;
+  font-weight: 600;
 }
 
-.developers a{
-    margin-left: 10px;
+.developers a {
+  margin-left: 10px;
 }
