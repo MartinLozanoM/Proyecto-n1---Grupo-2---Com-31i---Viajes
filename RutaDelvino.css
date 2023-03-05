@@ -1,0 +1,65 @@
+/* Estilos Generales */
+section {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 2.5rem;
+}
+
+.seccion-clara {
+  color: black;
+  background-color: white;
+}
+
+.seccion-oscura {
+  color: white;
+  background-color: black;
+}
+
+/* Primera parte */
+.titulo {
+}
+
+.titulo img {
+  width: 100%;
+}
+
+/* Segunda Parte */
+.titulo2 {
+}
+.titulo2 img {
+  width: 100%;
+}
+
+/* Tercera Parte */
+.regiones {
+  padding: 40px 40px 60px 40px;
+}
+
+.regiones i {
+  font-size: 2.5rem;
+  color: red;
+  background-color: white;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+.regiones-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badges-contenedor {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badge {
+  margin: 5px;
+}
