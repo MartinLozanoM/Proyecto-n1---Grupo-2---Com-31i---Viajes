@@ -8,6 +8,18 @@ section {
 }
 h1 {
   font-size: 2.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
 }
 
 .seccion-clara {
@@ -20,7 +32,20 @@ h1 {
   background-color: black;
 }
 
-/* Primera parte */
+.btn-info {
+  font-size: 1.1rem;
+  margin: 20px;
+}
+
+.texto-negro {
+  color: black;
+}
+
+.texto-blanco {
+  color: white;
+}
+
+/* Ruta de Vinos */
 .titulo {
 }
 
@@ -28,14 +53,14 @@ h1 {
   width: 100%;
 }
 
-/* Segunda Parte */
+/* Turismo Enologico */
 .titulo2 {
 }
 .titulo2 img {
   width: 100%;
 }
 
-/* Tercera Parte */
+/* Regiones */
 .regiones {
   padding: 40px 40px 60px 40px;
 }
@@ -77,4 +102,72 @@ h1 {
 
 .badge {
   margin: 5px;
+}
+
+/* Bodegas */
+.visita-bodegas {
+  padding: 40px;
+}
+
+.visita-bodegas img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.bodegas-contenedor {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.bodega {
+  position: relative;
+  height: 210px;
+}
+
+.bodega:hover img {
+  opacity: 0.2;
+}
+
+.bodega:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+  display: flex;
+  flex-direction: column;
+}
+
+.overlay i {
+  color: black;
+  font-size: 60px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 412px) {
+  .overlay p {
+    font-size: 18px;
+  }
+  .overlay i {
+    font-size: 40px;
+  }
 }
