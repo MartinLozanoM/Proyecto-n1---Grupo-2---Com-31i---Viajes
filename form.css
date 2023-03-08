@@ -1,12 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-main {
-  margin-bottom: 6rem;
-}
 
 .register-form {
   width: 400px;
