@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./itinerario.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="itinerario">
+        <h2>itinerario</h2>
+        <ul class="conteiner-list">
+            <li><strong>DÍA 1: MIÉRCOLES 10/05:</strong>Vuelo Bs As // Jujuy. Arribo y Noche en San Salvador de Jujuy.
+            </li>
+            <li><strong>DÍA 2: JUEVES 11/05:</strong>Por la mañana, traslado a Termas de Reyes. Regreso después del mediodía. Tarde Libre. Noche en San Salvador de Jujuy.</li>
+            <li><strong>DÍA 3: VIERNES 12/05:</strong>Por la mañana, excursión a Salinas Grandes. Tarde Libre en Purmamarca. Noche en Purmamarca.</li>
+            <li><strong>DÍA 4: SÁBADO 13/05:</strong>Excursión Quebrada de Humahuaca Tradicional con Mirador del Hornocal.Noche en Purmamarca.</li>
+            <li><strong>DÍA 5: DOMINGO 14/05: </strong>Dia completo en Iruya. Noche en Purmamarca.</li>
+            <li><strong>DÍA 6: LUNES 15/05:</strong> Traslado a Salta. Excursión por el camino Cornisa (ruta escénica)visitando San Antonio, El Carmen, Dique La Ciénaga. Llegada a Salta Capital.</li>
+            <li><strong>DÍA 7: MARTES 16/05:</strong>Paseo por la Catedral Basílica, Museo Histórico
+            del Norte (Cabildo), Iglesia San Francisco, Convento San Bernardo, Cerro San Bernardo, Monumento Gral.</li>
+            <li><strong>DÍA 8: MIÉRCOLES 17/05:</strong>Todo el dia en Cafayate. Recorrido por el Valle de Lerma, conociendo el cultivo de Tabaco y pueblos de arquitectura colonial. Visita a una o dos bodegas en Salta.</li>
+            <li><strong>DÍA 9: JUEVES 18/05:</strong>Día Libre en Salta. Noche en Salta.</li>
+            <li><strong>DÍA 10: VIERNES 19/05:</strong>Regreso a BA. recogida por hotel 9:30am.</li>
+        </ul>
+    </div>
+    <div class="limit">
+        <h2>fecha limite para anotarte</h2>
+        <p><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                class="bi bi-calendar-week" viewBox="0 0 16 16">
+                <path
+                    d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
+                <path
+                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+            </svg>
+            Reservá antes del 13/03/2023</p>
+    </div>
+    <section>
+        <div class="package">
+            <h2>EL PAQUETE INCLUYE:</h2>
+            <lu>
+                <li>1 reunión de presentación de grupo.</li>
+                <li>9 noches de alojamiento.</li>
+                <li>Comidas: desayunos.</li>
+                <li>Tours privados, según itinerario</li>
+                <li>Servicios de transporte y traslados en privado, según itinerario.</li>
+                <li>Coordinador de Viajes En Compañía, acompañando desde Bs As.</li>
+            </lu>
+        </div>
+        <div class="package">
+            <h2>EL NO PAQUETE INCLUYE:</h2>
+            <lu>
+                <li>Cualquier otro que no esté señalado en el itinerario.</li>
+                <li>Traslados aeropuerto en Argentina.</li>
+                <li>Seguro medico al viajero.</li>
+            </lu>
+        </div>
+    </section>
+    <div>
+        <form class="register-form">
+            <h2>Formulario de Registro</h2>
+            <input class="info" type="text" name="nombres" id="name" placeholder="Ingrese su Nombre" maxlength="20" />
+            <input class="info" type="text" name="apellidos" id="last-name" placeholder="Ingrese su Apellido"
+                maxlength="20" />
+            <input class="info" type="email" name="correo" id="mail" placeholder="Ingrese su Correo" maxlength="20" />
+            <input class="info" type="password" name="contraseña" id="password" placeholder="Ingrese su Contraseña"
+                maxlength="12" />
+            <p>
+                <label><input type="checkbox" id="cbox1" value="first_checkbox" /> Estoy
+                    de acuerdo con</label><a href="#"> Términos y Condiciones</a>
+            </p>
+            <input class="botons" type="submit" value="Registrar" />
+            <p><a href="#">¿Ya tengo cuenta?</a></p>
+        </form>
+    </div>
+</body>
+
+</html>
