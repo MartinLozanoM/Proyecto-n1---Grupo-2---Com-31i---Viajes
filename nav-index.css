@@ -35,7 +35,7 @@
   width: 0px;
   height: 100%;
   background: #ffffff4d;
-  transition: all 1s ease;
+  transition: all 0.4s ease;
 }
 
 .nav-link:hover:before {
