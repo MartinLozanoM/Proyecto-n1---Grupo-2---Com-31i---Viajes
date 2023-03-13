@@ -1,9 +1,13 @@
 /* style footer */
 
-
+footer{
+  width: 100%;
+}
 .container_footer{
   background-color: #084c61;
   padding: 30px;
+  width: 100%;
+  margin-left: 0;
 }
 .box_copyrigth {
   max-width: 1200px;
@@ -14,25 +18,33 @@
 
 .box_copyrigth p {
   margin-top: 10px;
-  color: #7a7a7a;
+  color: whitesmoke;
   text-align: center;
 }
 
 .box_copyrigth hr {
   border: none;
   height: 1px;
-  background-color: #7a7a7a;
+  background-color: whitesmoke;
 }
-.developers {
-  margin-top: 10px;
-  color: #7a7a7a;
-  font-weight: 600;
+.text_footer{
+  color: whitesmoke;
 }
-
+.icon_whatsap:hover{
+  color: chartreuse;
+  zoom: 120%;
+}
+.icon_git:hover{
+  color: black;
+  zoom: 120%;
+}
+.logo{
+  width: 100%;
+}
 .text {
   margin-top: 20px;
   font-weight: 500;
-  color: #7a7a7a;
+  color: whitesmoke;
   font-size: 18px;
 }
 .text_carousel{
