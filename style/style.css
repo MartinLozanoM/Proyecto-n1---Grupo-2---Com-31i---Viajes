@@ -1,3 +1,56 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+
+/*form suscripción*/
+
+.div_form{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 140px;
+  background: rgb(192,94,15);
+background: linear-gradient(165deg, rgba(192,94,15,1) 0%, rgba(25,39,43,1) 100%);
+}
+.form{
+  max-height: 550px;
+  background-color: rgba(0, 0, 0, 0.877);
+  padding: 10px;
+}
+.form h2{
+  color: #c01928;
+  font-family: 'Playball', cursive;
+  font-size: 50px;
+}
+.form p{
+  font-family:'Playball';
+  font-size: 25px;
+}
+.img_form{
+  max-width: 550px;
+  max-height: 550px;
+  object-fit:contain;
+  object-position: 100% 10%;
+  
+}
+.button{
+  height: 45px;
+}
+
+@media(max-width:991px){
+  .img_form{
+    object-fit: cover;
+    max-height: 100%;
+  }
+  .div_form{
+    padding-right: 0px;
+  }
+  .form{
+    max-height: 100%;
+
+  }
+}
+
+
 /* style footer */
 
 footer{
@@ -38,6 +91,10 @@ footer{
   color: black;
   zoom: 120%;
 }
+.icon_mail:hover{
+  color: rgb(248, 71, 71);
+  zoom: 120%;
+}
 .logo{
   width: 100%;
 }
@@ -57,5 +114,9 @@ footer{
 @media (max-width:575px){
   .map{
     margin-bottom: 10px;
+  }
+  .text_footer h2{
+    text-align: center;
+    font-size: 50px
   }
 }

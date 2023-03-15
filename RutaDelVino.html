@@ -324,30 +324,28 @@
     </section>
     <!--form-->
     <section>
-      <div class="container">
-        <div class=" mb-5 ">
-          <div class="row g-0 d-flex justify-content-center">
-            <div class="col-md-4">
-              <img
-                src="./assets/img/vino.jpg"
-                alt="vinos"
-                class="img_vino img-fluid rounded-start"
-              />
-            </div>
-            <div class="bg-dark rounded-end pe-3 pt-3 pb-3 shadow-lg col-12 ms-0 col-md-6 text-light">
+      <div class="container-fluid p-0">
+        <div class=" div_form d-flex justify-content-around">
+          <div class="row g-0  ">
+            <img
+            src="./assets/img/vino2.jpg"
+            alt="vinos"
+            class="img_form col-12 ms-0 col-md-6"
+          />
+            <div class="form col-12 col-md-6 text-light">
               <h2 class="p-1 text-center">Subscribite y forma parte del viaje.</h2>
             <p class="p-1 text-center">Recibi nuestras recomendaciones mensualmente llenando el formulario</p>
               <form>
                 <!-- 2 column grid layout with text inputs for the first and last names -->
                 <div class="row mb-4">
                   <div class="col">
-                    <div class="form-outline p-1 bg-danger bg-opacity-10 border border-danger border-start-0 rounded-end text-secondary fw-ligth shadow-lg">
+                    <div class="form-outline p-1 border-bottom border-danger rounded text-secondary fw-ligth shadow-lg">
                       <input type="text" id="form3Example1" class="form-control border border-0 bg-danger bg-opacity-10" required/>
                       <label class="form-label" for="form3Example1" >Nombre</label>
                     </div>
                   </div>
                   <div class="col">
-                    <div class="form-outline p-1 bg-danger bg-opacity-10 border border-danger border-start-0 rounded-end text-secondary fw-ligth shadow-lg">
+                    <div class="form-outline p-1 border-bottom border-danger rounded text-secondary fw-ligth shadow-lg">
                       <input type="text" id="form3Example2" class="form-control border border-0 bg-danger bg-opacity-10" required/>
                       <label class="form-label" for="form3Example2">Apellido</label>
                     </div>
@@ -355,39 +353,15 @@
                 </div>
               
                 <!-- Email input -->
-                <div class="form-outline mb-4 p-1 bg-danger bg-opacity-10 border border-danger border-start-0 rounded-end text-secondary fw-ligth shadow-lg">
+                <div class="form-outline mb-4 p-1 border-bottom border-danger rounded text-secondary fw-ligth shadow-lg">
                   <input type="email" id="form3Example3" class="form-control border border-0 bg-danger bg-opacity-10"/>
                   <label class="form-label" for="form3Example3">Email</label>
                 </div>
               
-                <!-- Checkbox -->
-                <div class="form-check d-flex justify-content-center mb-4">
-                  <input class="form-check-input me-2 bg-danger shadow-lg" type="checkbox" value="" id="form2Example33" checked />
-                  <label class="form-check-label" for="form2Example33">
-                    Deseo recibir ofertas y novedades.
-                  </label>
-                </div>
+  
               
                 <!-- Submit button -->
-                <button type="submit" class="btn btn-danger btn-rounded rounded-pill btn-block mb-4 d-grid gap-2 col-6 mx-auto shadow-lg">Subcribirme</button>
-              
-                <!-- Register buttons -->
-                <div class="text-center">
-                  <p>Ingresa con tu cuenta:</p>
-                  <button type="button" class="btn btn-secondary btn-floating mx-1">
-                    <i class="fab fa-facebook-f"></i>
-                  </button>
-              
-                  <button type="button" class="btn btn-secondary btn-floating mx-1">
-                    <i class="fab fa-google"></i>
-                  </button>
-              
-                  <button type="button" class="btn btn-secondary btn-floating mx-1">
-                    <i class="fab fa-twitter"></i>
-                  </button>
-      
-                  </button>
-                </div>
+                <button type="submit" class="btn button btn-rounded btn-sm rounded-pill btn-block d-grid gap-2 py-0 my-0 col-6 mx-auto shadow-lg" style="background-color: #c01928;"><p class="pt-1">Subscribite</p></button>
               </form>
             </div>
         </div>
@@ -427,45 +401,57 @@
             ></iframe>
           </div>
         </div>
-        <div class="text_footer col-12 col-md-4 col-sm-6">
-          <h2 class="mb-3 me-5 text-light">Desarrolladores</h2>
+        <div class="text_footer ps-5 col-12 col-md-4 col-sm-6">
+          <h2 class=" mb-3 me-5 ps-0 text-light">Desarrolladores</h2>
   
-          <div class="row text-start ms-5 fw-semibold">
-            <p class="col-6">Martin</p>
-            <div class="col-6">
+          <div class="row text-start fw-semibold">
+            <p class="col-4">Martin</p>
+            <div class="col-8 text-center">
               <a href="https://github.com/MartinLozanoM"
                 ><i class="text_footer icon_git fs-3 fa-brands fa-github"></i
               ></a>
               <a href="https://web.whatsapp.com/"
                 ><i class="text_footer fs-3 fa-brands icon_whatsap fa-whatsapp"></i
               ></a>
+              <a href="https://outlook.live.com/owa/">
+                <i class="text_footer fs-3 icon_mail fa-solid fa-envelope"></i>
+              </a>
             </div>
-            <p class="col-6">Luis</p>
-            <div class="col-6">
+            <p class="col-4">Luis</p>
+            <div class="col-8 text-center">
               <a href="https://github.com/Luis-Ll"
                 ><i class="text_footer icon_git fs-3 fa-brands fa-github"></i
               ></a>
               <a href="https://web.whatsapp.com/"
                 ><i class="text_footer fs-3 fa-brands icon_whatsap fa-whatsapp"></i
               ></a>
+              <a href="https://outlook.live.com/owa/">
+                <i class="text_footer fs-3 icon_mail fa-solid fa-envelope"></i>
+              </a>
             </div>
-            <p class="col-6">Andrea</p>
-            <div class="col-6">
+            <p class="col-4">Andrea</p>
+            <div class="col-8 text-center">
               <a href="https://github.com/jerehjuarez"
                 ><i class="text_footer icon_git fs-3 fa-brands fa-github"></i
               ></a>
               <a href="https://web.whatsapp.com/"
                 ><i class="text_footer fs-3 fa-brands icon_whatsap fa-whatsapp"></i
               ></a>
+              <a href="https://outlook.live.com/owa/">
+                <i class="text_footer fs-3 icon_mail fa-solid fa-envelope"></i>
+              </a>
             </div>
-            <p class="col-6">Jeremias</p>
-            <div class="col-6">
+            <p class="col-4">Jeremias</p>
+            <div class="col-8 text-center">
               <a href="https://github.com/jerehjuarez"
                 ><i class="text_footer icon_git fs-3 fa-brands fa-github"></i
               ></a>
               <a href="https://web.whatsapp.com/"
                 ><i class="text_footer icon_whatsap fs-3 fa-brands fa-whatsapp"></i
               ></a>
+              <a href="https://outlook.live.com/owa/">
+                <i class="text_footer fs-3 icon_mail fa-solid fa-envelope"></i>
+              </a>
             </div>
             <figure>
               <img src="./assets/footer/logo rolling.png" alt="logo rolling" class="img-fluid
