@@ -2,6 +2,106 @@
   font-family: "Roboto", sans-serif;
 }
 
+.title-destination {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  padding: 20px;
+}
+
+.slider-destination {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  aspect-ratio: 16 / 9;
+  overflow-x: hidden;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  box-shadow: 0 .25rem .5rem #21212126;
+}
+
+.slider img {
+  flex: 1 0 100%;
+  scroll-snap-align: start;
+  object-fit: cover;
+  
+}
+
+.slider-nav {
+  display: flex;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translatex(-50%);
+  z-index: 1;
+}
+
+.slider-nav a {
+  width: .5rem;
+  height: .5rem;
+  border-radius: 50%;
+  background-color: #fff;
+  opacity: .75;
+  transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover {
+  opacity: 100%;
+
+}
+
+.container-data {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.information {
+  width: 20%;
+  max-width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.options-title {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.options-title i {
+  font-size: 20px;
+  padding: 10px;
+
+}
+
+.options-title h2 {
+  font-size: 15px;
+  padding: 20px;
+}
+
+.options {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .itinerario h2 {
   text-align: center;
   font-size: 50px;
