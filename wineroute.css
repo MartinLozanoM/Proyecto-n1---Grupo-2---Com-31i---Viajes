@@ -1,0 +1,175 @@
+/* Estilos Generales */
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+section {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 2.5rem;
+}
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding: 15px 0;
+}
+
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #584e4e;
+}
+
+.seccion-clara {
+  color: black;
+  background-color: white;
+}
+
+.seccion-oscura {
+  color: white;
+  background-color: black;
+}
+
+.btn-info {
+  font-size: 1.1rem;
+  margin: 20px;
+}
+
+.texto-negro {
+  color: black;
+}
+
+.texto-blanco {
+  color: white;
+}
+
+/* Ruta de Vinos */
+.titulo {
+}
+
+.titulo img {
+  width: 100%;
+}
+
+/* Turismo Enologico */
+.titulo2 {
+}
+.titulo2 img {
+  width: 100%;
+}
+
+/* Regiones */
+.regiones {
+  padding: 40px 40px 60px 40px;
+}
+
+.regiones .columna {
+  padding: 20px;
+  border: 2px solid #8080804d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+}
+
+.regiones .columna:hover {
+  color: white;
+  background-color: #1b1b32;
+}
+
+.regiones i {
+  font-size: 2.5rem;
+  color: red;
+  background-color: white;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+.regiones-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badges-contenedor {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badge {
+  margin: 5px;
+}
+
+/* Bodegas */
+.visita-bodegas {
+  padding: 40px;
+}
+
+.visita-bodegas img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.bodegas-contenedor {
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
+
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.bodega {
+  position: relative;
+  height: 210px;
+}
+
+.bodega:hover img {
+  opacity: 0.2;
+}
+
+.bodega:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .iconos-contenedor {
+  display: flex;
+  flex-direction: column;
+}
+
+.overlay i {
+  color: black;
+  font-size: 60px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 412px) {
+  .overlay p {
+    font-size: 18px;
+  }
+  .overlay i {
+    font-size: 40px;
+  }
+}
