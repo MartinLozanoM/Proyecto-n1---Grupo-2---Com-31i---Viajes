@@ -1,9 +1,68 @@
+/*font*/
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+
+/*form suscripción*/
+
+.div_form {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 140px;
+  background: rgb(192, 94, 15);
+  background: linear-gradient(
+    165deg,
+    rgba(192, 94, 15, 1) 0%,
+    rgba(25, 39, 43, 1) 100%
+  );
+}
+.form {
+  max-height: 550px;
+  background-color: rgba(0, 0, 0, 0.877);
+  padding: 10px;
+}
+.form h2 {
+  color: #c01928;
+  font-family: "Playball", cursive;
+  font-size: 50px;
+}
+.form p {
+  font-family: "Playball";
+  font-size: 25px;
+}
+.img_form {
+  max-width: 550px;
+  max-height: 550px;
+  object-fit: contain;
+  object-position: 100% 10%;
+}
+.button {
+  height: 45px;
+}
+
+@media (max-width: 991px) {
+  .img_form {
+    object-fit: cover;
+    max-height: 100%;
+  }
+  .div_form {
+    width: 100%;
+    padding-right: 0px;
+  }
+  .form {
+    max-height: 100%;
+  }
+}
+
 /* style footer */
 
-
-.container_footer{
+footer {
+  width: 100%;
+}
+.container_footer {
   background-color: #084c61;
   padding: 30px;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .box_copyrigth {
   max-width: 1200px;
@@ -14,36 +73,51 @@
 
 .box_copyrigth p {
   margin-top: 10px;
-  color: #7a7a7a;
+  color: whitesmoke;
   text-align: center;
 }
 
 .box_copyrigth hr {
   border: none;
   height: 1px;
-  background-color: #7a7a7a;
+  background-color: whitesmoke;
 }
-.developers {
-  margin-top: 10px;
-  color: #7a7a7a;
-  font-weight: 600;
+.text_footer {
+  color: whitesmoke;
 }
-
+.icon_whatsap:hover {
+  color: chartreuse;
+  zoom: 120%;
+}
+.icon_git:hover {
+  color: black;
+  zoom: 120%;
+}
+.icon_mail:hover {
+  color: rgb(248, 71, 71);
+  zoom: 120%;
+}
+.logo {
+  width: 100%;
+}
 .text {
   margin-top: 20px;
   font-weight: 500;
-  color: #7a7a7a;
+  color: whitesmoke;
   font-size: 18px;
 }
-.text_carousel{
+.text_carousel {
   font-size: 150px;
 }
-.map{
+.map {
   max-width: 280px;
 }
 
-@media (max-width:575px){
-  .map{
+@media (max-width: 575px) {
+  .map {
     margin-bottom: 10px;
+  }
+  .text_footer h2 {
+    text-align: center;
   }
 }
