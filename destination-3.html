@@ -5,76 +5,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
     <link rel="stylesheet" href="./itinerario.css">
+    <script src="https://kit.fontawesome.com/26949654fa.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 
 <body>
-    <div class="itinerario">
-        <h2>itinerario</h2>
-        <ul class="conteiner-list">
-            <li><strong>DÍA 1: MIÉRCOLES 00/00:</strong></li>
-            <li><strong>DÍA 2: JUEVES 00/00:</strong></li>
-            <li><strong>DÍA 3: VIERNES 00/00:</strong></li>
-            <li><strong>DÍA 4: SÁBADO 00/00:</strong></li>
-            <li><strong>DÍA 5: DOMINGO 00/00: </strong></li>
-            <li><strong>DÍA 6: LUNES 00/00:</strong></li>
-            <li><strong>DÍA 7: MARTES 00/00:</strong></li>
-            <li><strong>DÍA 8: MIÉRCOLES 00/00:</strong></li>
-            <li><strong>DÍA 9: JUEVES 00/00:</strong></li>
-            <li><strong>DÍA 10: VIERNES 00/00:</strong></li>
-        </ul>
-    </div>
-    <div class="limit">
-        <h2>fecha limite para anotarte</h2>
-        <p><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
-                class="bi bi-calendar-week" viewBox="0 0 16 16">
-                <path
-                    d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
-                <path
-                    d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
-            </svg>
-            Reservá antes del 00/00/2023</p>
-    </div>
-    <section>
-        <div class="package">
-            <h2>EL PAQUETE INCLUYE:</h2>
-            <lu>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </lu>
+    <main>
+        <h1 class="title-destination">Buenos Aires 2023</h1>
+        <section class="container-slider">
+            <div class="slider-destination">
+                <div class="slider">
+                    <img id="slider-1" src="./assets/img/buenos -aires1.jpg" alt="">
+                    <img id="slider-2" src="./assets/img/buenos-aires2.jpg" alt="">
+                    <img id="slider-3" src="./assets/img/buenos-aires3.jpg" alt="">
+                </div>
+                <div class="slider-nav">
+                    <a href="#slider-1"></a>
+                    <a href="#slider-2"></a>
+                    <a href="#slider-3"></a> 
+                </div>
+            </div>
+        </section>
+        <section class="container-data">
+            <div class="information">
+                <div class="options-title">
+                    <i class="fa-solid fa-calendar-days"></i>
+                    <h2>Fecha de Viaje</h2>
+                </div>
+                <div class="options">
+                    <p>17 al 23 de Abril 2023</p>
+                </div>
+            </div>
+            <div class="information">
+                <div class="options-title">
+                    <i class="fa-sharp fa-solid fa-dollar-sign"></i>
+                    <h2>Precio Base Doble</h2>
+                </div>
+                <div class="options">
+                    <p>USDXXXX</p>
+                </div>
+            </div>
+            <div class="information">
+                <div class="options-title">
+                    <i class="fa-solid fa-utensils"></i>
+                    <h2>Comidas Incluidas</h2>
+                </div>
+                <div class="options">
+                    <p>Desayunos</p>
+                </div>
+            </div>
+            <div class="information">
+                <div class="options-title">
+                    <i class="fa-solid fa-bed"></i>
+                    <h2>Alojamiento</h2>
+                </div>
+                <div class="options">
+                    <p>Hoteles 5 Estrellas</p>
+                </div>
+            </div>
+            <div class="information">
+                <div class="options-title">
+                    <i class="fa-solid fa-plane"></i>
+                    <h2>Vuelos</h2>
+                </div>
+                <div class="options">
+                    <p>Aerolíneas Argentinas</p>
+                </div>                
+            </div>
+        </section>
+        <div class="itinerario">
+            <h2>itinerario</h2>
+            <ul class="conteiner-list">
+                <li><strong>DÍA 1: MIÉRCOLES 00/00:</strong></li>
+                <li><strong>DÍA 2: JUEVES 00/00:</strong></li>
+                <li><strong>DÍA 3: VIERNES 00/00:</strong></li>
+                <li><strong>DÍA 4: SÁBADO 00/00:</strong></li>
+                <li><strong>DÍA 5: DOMINGO 00/00: </strong></li>
+                <li><strong>DÍA 6: LUNES 00/00:</strong></li>
+                <li><strong>DÍA 7: MARTES 00/00:</strong></li>
+                <li><strong>DÍA 8: MIÉRCOLES 00/00:</strong></li>
+                <li><strong>DÍA 9: JUEVES 00/00:</strong></li>
+                <li><strong>DÍA 10: VIERNES 00/00:</strong></li>
+            </ul>
         </div>
-        <div class="package">
-            <h2>EL NO PAQUETE INCLUYE:</h2>
-            <lu>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </lu>
+        <div class="limit">
+            <h2>fecha limite para anotarte</h2>
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                    class="bi bi-calendar-week" viewBox="0 0 16 16">
+                    <path
+                        d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1z" />
+                    <path
+                        d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+                </svg>
+                Reservá antes del 00/00/2023</p>
         </div>
-    </section>
-    <div>
-        <form class="register-form">
-            <h2>Formulario de Registro</h2>
-            <input class="info" type="text" name="nombres" id="name" placeholder="Ingrese su Nombre" maxlength="20" />
-            <input class="info" type="text" name="apellidos" id="last-name" placeholder="Ingrese su Apellido"
-                maxlength="20" />
-            <input class="info" type="email" name="correo" id="mail" placeholder="Ingrese su Correo" maxlength="20" />
-            <input class="info" type="password" name="contraseña" id="password" placeholder="Ingrese su Contraseña"
-                maxlength="12" />
-            <p>
-                <label><input type="checkbox" id="cbox1" value="first_checkbox" /> Estoy
-                    de acuerdo con</label><a href="#"> Términos y Condiciones</a>
-            </p>
-            <input class="botons" type="submit" value="Registrar" />
-            <p><a href="#">¿Ya tengo cuenta?</a></p>
-        </form>
-    </div>
+        <section>
+            <div class="package">
+                <h2>EL PAQUETE INCLUYE:</h2>
+                <lu>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </lu>
+            </div>
+            <div class="package">
+                <h2>EL NO PAQUETE INCLUYE:</h2>
+                <lu>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </lu>
+            </div>
+        </section>
+        <div>
+            <form class="register-form">
+                <h2>Formulario de Registro</h2>
+                <input class="info" type="text" name="nombres" id="name" placeholder="Ingrese su Nombre" maxlength="20" />
+                <input class="info" type="text" name="apellidos" id="last-name" placeholder="Ingrese su Apellido"
+                    maxlength="20" />
+                <input class="info" type="email" name="correo" id="mail" placeholder="Ingrese su Correo" maxlength="20" />
+                <input class="info" type="password" name="contraseña" id="password" placeholder="Ingrese su Contraseña"
+                    maxlength="12" />
+                <p>
+                    <label><input type="checkbox" id="cbox1" value="first_checkbox" /> Estoy
+                        de acuerdo con</label><a href="#"> Términos y Condiciones</a>
+                </p>
+                <input class="botons" type="submit" value="Registrar" />
+                <p><a href="#">¿Ya tengo cuenta?</a></p>
+            </form>
+        </div>
+    </main>  
 </body>
 
 </html>

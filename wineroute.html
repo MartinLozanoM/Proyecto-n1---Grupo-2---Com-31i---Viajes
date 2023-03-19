@@ -32,7 +32,7 @@
     />
     <!-- CSS Styles -->
     <link rel="stylesheet" href="./form.css" />
-    <link rel="stylesheet" href="./navbar.css" />
+    <link rel="stylesheet" href="./style/navbar,wineroute.css" />
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="stylesheet" href="./cards.css" />
     <link rel="stylesheet" href="./wineroute.css" />
@@ -57,14 +57,14 @@
   </head>
   <body>
     <!-- Navbar -->
-    <header class="header">
+    <header>
       <nav
-        class="navbar navbar-expand-lg navbar-light fixed-top"
-        style="background-color: #ffc857"
+        class="navbar navbar-expand-lg navbar-light"
+        style="background-color: #ffffff"
       >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"
-            ><img src="./assets/img/Grupo-8.png" alt="logo"
+          <a class="navbar-brand" href=""
+            ><img src="./assets/img/logo-vertical-color-blanco.png" alt="logo"
           /></a>
           <button
             class="navbar-toggler"
@@ -97,21 +97,17 @@
           </div>
         </div>
       </nav>
-    </header>
-    <!-- Ruta del vino -->
-    <section class="titulo seccion-clara">
-      <div
-        class="d-flex flex-column justify-content-center align-items-center text-center"
-      >
-        <h1>Ruta de Vinos Argentina</h1>
-        <img
-          src="./assets/img/purple-grapes-vineyard-napa-valley-napa-vineyard-39351.jpeg"
-          alt="Portada"
-        />
+      <div class="first-glance">
+        <h1>Ruta de <span>Vinos</span> Argentina</h1>
+        <p class="text-p">
+          El mejor vino no es el mas caro sino el que se comparte con la mejor
+          compañía.
+        </p>
+        <a class="button" href="#">ver mas</a>
       </div>
-    </section>
+    </header>
     <!-- Turismo Enologico -->
-    <section class="titulo2 seccion-oscura">
+    <section class="titulo2 seccion-oscura" id="wines">
       <div
         class="d-flex flex-column justify-content-center align-items-center text-center"
       >
@@ -379,7 +375,6 @@
                     </div>
                   </div>
                 </div>
-
                 <!-- Email input -->
                 <div
                   class="form-outline mb-4 p-1 border-bottom border-danger rounded text-secondary fw-ligth shadow-lg"
@@ -391,7 +386,6 @@
                   />
                   <label class="form-label" for="form3Example3">Email</label>
                 </div>
-
                 <!-- Submit button -->
                 <button
                   type="submit"

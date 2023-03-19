@@ -6,7 +6,7 @@
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-size: 50px;
-  padding: 20px;
+  margin-top: 50px;
 }
 
 .slider-destination {
@@ -45,7 +45,7 @@
   width: .5rem;
   height: .5rem;
   border-radius: 50%;
-  background-color: #fff;
+  background-color: white;
   opacity: .75;
   transition: opacity ease 250ms;
 }
@@ -63,12 +63,12 @@
   width: 100%;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .information {
   width: 20%;
-  max-width: 20%;
+  max-width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;

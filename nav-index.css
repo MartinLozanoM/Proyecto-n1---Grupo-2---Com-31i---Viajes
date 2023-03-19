@@ -1,76 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: century;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./assets/img/equipo-de-trabajo.webp);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  background: transparent !important;
+}
+
+.navbar:hover {
+  backdrop-filter: blur(50px);
+}
+
+header .navbar {
+  width: 100%;
+  height: 13%;
+}
+
+.navbar-brand img{
+  width: 200px;
+}
+
+.navbar-brand h1{
+  color: #177E89;
+  font-size: 40px;
+}
+
 .navbar-collapse {
   justify-content: right;
 }
 
-.navbar-nav {
-  padding-right: 60px;
-}
-
-.header {
-  width: 100%;
-}
-
 .nav-item {
-  padding-right: 8%;
+  padding-right: 30px;
 }
+
 
 .nav-link {
-  color: #fff !important;
+  color: #ffffff !important;
   font-size: 20px;
   font-weight: 500;
   padding: 0.5em 1.2em;
+  background: #177E89;
   border: 2px solid;
-  border-color: #318aac;
+  border-color: #177E89;
   position: relative;
-  text-align: center;
-  width: 100%;
 }
 
 .nav-link:before {
   content: "";
   position: absolute;
   top: 0px;
-  background: #318aac;
   left: 0px;
   width: 0px;
   height: 100%;
-  background: #ffffff4d;
-  transition: all 0.4s ease;
+  background: rgba(0, 0, 0, 0.341);
+  transition: 200ms ease;
 }
 
 .nav-link:hover:before {
   width: 100%;
 }
 
+.first-glance {
+  padding-top: 5%;
+  padding-left: 2%;
+}
+
+.first-glance h1 {
+  font-family: 'Times New Roman';
+  font-size: 70px;
+  width: 45%;
+  color: #fff;
+  transition: 0.6s ease;
+}
+
+.first-glance span{
+color: #177E89;
+}
+
+.text-p {
+  font-size: 18px;
+  color: #ffffff;
+  width: 50%;
+  margin: 2%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.text-p p{
+  margin-top: 10%;
+}
+
 .button {
-  color: #fff !important;
+  color: #fff;
   font-size: 25px;
-  font-weight: 700;
+  font-weight: 500;
   padding: 0.5em 1.2em;
-  border: 3px solid;
-  border-color: #318aac;
+  background: #177E89;
+  border: 2px solid;
+  border-color: #177E89;
   position: relative;
-  text-align: center;
-  width: 100%;
   text-decoration: none;
+  transition: 0.6s ease;
 }
 
-.button:before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  background: #318aac;
-  left: 0px;
-  width: 0px;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.3);
-  transition: all 1s ease;
-}
-
-.button:hover:before {
-  width: 100%;
-}
-
-.lorem {
-  padding-top: 4%;
+.button:hover {
+  margin: 10px;
+  color: rgb(0, 0, 0);
+  box-shadow: 5px 5px 5px #177e8972;
+  transition: 0.6s ease;
 }
