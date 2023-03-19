@@ -3,30 +3,28 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-color: #937666;
+}
+
 section {
-  margin-top: 6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 h1 {
   font-size: 2.5rem;
 }
 
-.seccion-titulo {
+.section-title {
   font-size: 2rem;
   padding: 15px 0;
 }
 
-.seccion-descripcion {
+.section-description {
   font-size: 1.2rem;
-  color: #584e4e;
-}
-
-.seccion-oscura {
-  color: white;
-  background-color: black;
 }
 
 .btn-info {
@@ -34,7 +32,7 @@ h1 {
   margin: 20px;
 }
 
-.texto-negro {
+.black-text {
   color: black;
 }
 
@@ -42,27 +40,34 @@ h1 {
   color: white;
 }
 
-/* Ruta de Vinos */
-.titulo {
+/* Main */
+
+.main-container {
+  background-color: #fbfcff;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
+/* Ruta de Vinos */
 .titulo img {
   width: 100%;
 }
 
 /* Turismo Enologico */
-.titulo2 {
+.oenology {
+  color: black;
 }
-.titulo2 img {
+
+.oenology img {
   width: 100%;
 }
 
 /* Regiones */
-.regiones {
+.regions {
   padding: 40px 40px 60px 40px;
 }
 
-.regiones .columna {
+.regions .region-column {
   padding: 20px;
   border: 2px solid #8080804d;
   display: flex;
@@ -72,29 +77,33 @@ h1 {
   transition: all 0.2s ease-in;
 }
 
-.regiones .columna:hover {
+.regions .region-column:hover {
   color: white;
-  background-color: #1b1b32;
+  background-color: #937666;
 }
 
-.regiones i {
+.regions i {
   font-size: 2.5rem;
   color: red;
-  background-color: white;
+  background-color: #fbfcff;
   padding: 8px 19px;
   border-radius: 50%;
 }
 
-.regiones-titulo {
+.regions-title {
   font-size: 25px;
   font-weight: bold;
   margin: 10px 0;
 }
 
-.badges-contenedor {
+.badges-container {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0;
+}
+
+.badges-container span {
+  background-color: #56070c !important;
 }
 
 .badge {
@@ -102,11 +111,16 @@ h1 {
 }
 
 /* Bodegas */
-.visita-bodegas {
+.cellars-visit {
   padding: 40px;
 }
 
-.visita-bodegas img {
+.cellars-visit h2,
+h3 {
+  color: black;
+}
+
+.cellars-visit img {
   height: 100%;
   width: 100%;
   padding: 10px;
@@ -115,7 +129,7 @@ h1 {
   transition: all 0.2s ease;
 }
 
-.bodegas-contenedor {
+.cellars-contenedor {
   padding-top: 60px;
   margin-bottom: 40px;
 }
@@ -136,20 +150,20 @@ h1 {
   margin-bottom: 0;
 }
 
-.bodega {
+.cellar {
   position: relative;
   height: 210px;
 }
 
-.bodega:hover img {
+.cellar:hover img {
   opacity: 0.2;
 }
 
-.bodega:hover .overlay {
+.cellar:hover .overlay {
   opacity: 1;
 }
 
-.overlay .iconos-contenedor {
+.overlay .icons-conteiner {
   display: flex;
   flex-direction: column;
 }
@@ -158,6 +172,24 @@ h1 {
   color: black;
   font-size: 60px;
   margin: 10px;
+}
+
+.more-cellars {
+  background-color: #56070c;
+  color: #fff;
+  border-color: #56070c;
+}
+
+.more-cellars:hover {
+  background-color: #fff;
+  color: #56070c;
+  border-color: #56070c;
+}
+
+.more-cellars:focus {
+  background-color: #fff;
+  color: #56070c;
+  border-color: #56070c;
 }
 
 @media screen and (max-width: 412px) {
