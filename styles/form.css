@@ -4,7 +4,7 @@
 
 .register-form {
   width: 400px;
-  background: url(./assets/img/chalten.jpg) no-repeat 0px 0px;
+  background: url(/assets/img/chalten.jpg) no-repeat 0px 0px;
   background-size: cover;
   background-position: center;
   padding: 30px;
@@ -13,7 +13,7 @@
   border-radius: 4px;
   color: white;
   box-shadow: 7px 13px 37px #000;
-  opacity: .75;
+  opacity: 0.75;
 }
 
 .register-form h2 {
