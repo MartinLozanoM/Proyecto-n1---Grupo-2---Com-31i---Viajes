@@ -4,7 +4,6 @@
 }
 
 section {
-  margin-top: 6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,16 +42,11 @@ h1 {
 }
 
 /* Ruta de Vinos */
-.titulo {
-}
-
 .titulo img {
   width: 100%;
 }
 
 /* Turismo Enologico */
-.titulo2 {
-}
 .titulo2 img {
   width: 100%;
 }
@@ -158,6 +152,24 @@ h1 {
   color: black;
   font-size: 60px;
   margin: 10px;
+}
+
+.more-cellars {
+  background-color: #56070c;
+  color: #fff;
+  border-color: #56070c;
+}
+
+.more-cellars:hover {
+  background-color: #fff;
+  color: #56070c;
+  border-color: #56070c;
+}
+
+.more-cellars:focus {
+  background-color: #fff;
+  color: #56070c;
+  border-color: #56070c;
 }
 
 @media screen and (max-width: 412px) {
