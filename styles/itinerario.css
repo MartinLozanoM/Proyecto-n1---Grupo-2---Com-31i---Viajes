@@ -21,14 +21,13 @@
   overflow-x: hidden;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  box-shadow: 0 .25rem .5rem #21212126;
+  box-shadow: 0 0.25rem 0.5rem #21212126;
 }
 
 .slider img {
   flex: 1 0 100%;
   scroll-snap-align: start;
   object-fit: cover;
-  
 }
 
 .slider-nav {
@@ -42,17 +41,16 @@
 }
 
 .slider-nav a {
-  width: .5rem;
-  height: .5rem;
+  width: 0.5rem;
+  height: 0.5rem;
   border-radius: 50%;
   background-color: white;
-  opacity: .75;
+  opacity: 0.75;
   transition: opacity ease 250ms;
 }
 
 .slider-nav a:hover {
   opacity: 100%;
-
 }
 
 .container-data {
@@ -75,7 +73,6 @@
 }
 
 .options-title {
-  
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -85,7 +82,6 @@
 .options-title i {
   font-size: 20px;
   padding: 10px;
-
 }
 
 .options-title h2 {
@@ -164,7 +160,7 @@ section {
 
 .register-form {
   width: 400px;
-  background: url(./assets/img/chalten.jpg) no-repeat 0px 0px;
+  background: url(/assets/img/chalten.jpg) no-repeat 0px 0px;
   background-size: cover;
   background-position: center;
   padding: 30px;
