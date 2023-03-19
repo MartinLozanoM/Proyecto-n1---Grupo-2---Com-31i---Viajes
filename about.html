@@ -28,7 +28,6 @@
     />
     <!-- CSS Styles -->
     <link rel="stylesheet" href="./form.css" />
-    <link rel="stylesheet" href="./navbar.css" />
     <link rel="stylesheet" href="./style/style.css" />
     <link rel="stylesheet" href="./cards.css" />
     <link rel="stylesheet" href="./form.css" />
@@ -53,136 +52,125 @@
   </head>
   <body>
     <!-- Navbar -->
-    <header class="header">
-      <nav
-        class="navbar navbar-expand-lg navbar-light fixed-top"
-        style="background-color: #ffc857"
-      >
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"
-            ><img src="./assets/img/Grupo-8.png" alt="logo"
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <div
-        class="container d-md-flex flex-md-column align-items-md-center justify-content-center"
-      >
-        <div class="card mb-3" id="card1" style="max-width: 540px">
-          <div class="row g-0">
-            <div class="col-md-4 photodiv">
-              <img
-                src="./assets/img/WhatsApp Image 2023-02-25 at 18.20.45.jpeg"
-                class="img-fluid rounded-start"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body text-center">
-                <h5 class="card-title">Martin Lozano Muñoz</h5>
-                <p class="card-text">
-                  Soy martin, tengo 26 años y antes de llegar a Rolling Code
-                  estaba estudiando administracion de empresas. Decidi cambiar
-                  el rumbo de mi carrera porque descubri lo divertido e
-                  interesante que puede llegar a ser el mundo de la
-                  programacion.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card mb-3" style="max-width: 540px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="./assets/img/9-si-foto-cv.png"
-                class="img-fluid rounded-start"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body text-center">
-                <h5 class="card-title">Martin Lozano</h5>
-                <p class="card-text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non,
-                  cumque error dolorem vitae veniam minima incidunt
-                  reprehenderit quia provident. Nulla dicta cum, temporibus
-                  consequuntur deleniti quis vel voluptate velit neque.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card mb-3" style="max-width: 540px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="./assets/img/foto_cv_lc_es_12.jpg"
-                class="img-fluid rounded-start"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body text-center">
-                <h5 class="card-title">Martin Muñoz</h5>
-                <p class="card-text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non,
-                  cumque error dolorem vitae veniam minima incidunt
-                  reprehenderit quia provident. Nulla dicta cum, temporibus
-                  consequuntur deleniti quis vel voluptate velit neque.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="card mb-3" style="max-width: 540px">
-          <div class="row g-0">
-            <div class="col-md-4">
-              <img
-                src="./assets/img/foto_cv_lc_es_4.jpg"
-                class="img-fluid rounded-start"
-                alt="..."
-              />
-            </div>
-            <div class="col-md-8">
-              <div class="card-body text-center">
-                <h5 class="card-title">Martina Lozano</h5>
-                <p class="card-text">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non,
-                  cumque error dolorem vitae veniam minima incidunt
-                  reprehenderit quia provident. Nulla dicta cum, temporibus
-                  consequuntur deleniti quis vel voluptate velit neque.
-                </p>
-              </div>
-            </div>
-          </div>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href=""><img src="./assets/img/logo-vertical-color-blanco.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
         </div>
       </div>
+    </nav>
+    <div class="first-glance">
+      <h1>
+        <span>conoce</span> más de esta empresa
+      </h1>
+      <p class="text-p">viajar te deja sin palabras y después te convierte en un narrador de historias.
+      </p>
+      <a class="button" href="#cards">ver mas</a>
+    </div>
+  </header>
+
+
+  <section id="cards">
+    <div class="card" >
+      <div class="head">
+        <div class="circle"></div>
+        <div class="img">
+          <img src="./assets/img/92c7c750120016c44ec0b16837645c58.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="description">
+        <h3>jeremias juarez</h3>
+        <h4>dueño de rcs</h4>
+        <p>Lorem ipsum dolor sit amet con
+          lor lor sectetur, adipisicing elit. Maiores provident voluptate doloribus.
+        </p>
+      </div>
+
+      <div class="contact">
+        <a href="">contact</a>
+      </div>
+
+    </div>
+
+    <div class="card">
+      <div class="head">
+        <div class="circle"></div>
+        <div class="img">
+          <img src="./assets/img/92c7c750120016c44ec0b16837645c58.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="description">
+        <h3>Andrea Toledo</h3>
+        <h4>dueño de rcs</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores provident voluptate doloribus.
+        </p>
+      </div>
+
+      <div class="contact">
+        <a href="">contact</a>
+      </div>
+
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="circle"></div>
+        <div class="img">
+          <img src="./assets/img/92c7c750120016c44ec0b16837645c58.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="description">
+        <h3>Martín Lozano</h3>
+        <h4>dueño de rcs</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores provident voluptate doloribus.
+        </p>
+      </div>
+
+      <div class="contact">
+        <a href="">contact</a>
+      </div>
+
+    </div>
+    <div class="card">
+      <div class="head">
+        <div class="circle"></div>
+        <div class="img">
+          <img src="./assets/img/92c7c750120016c44ec0b16837645c58.jpg" alt="">
+        </div>
+      </div>
+
+      <div class="description">
+        <h3>Luis López</h3>
+        <h4>dueño de rcs</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam molestias magnam consequuntur.
+        </p>
+      </div>
+
+      <div class="contact">
+        <a href="">contact</a>
+      </div>
+
+    </div>
+  </section>
+  
       <form class="register-form">
         <h2>Formulario de Registro</h2>
         <input
