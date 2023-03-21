@@ -10,7 +10,7 @@ header {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url(../assets/img/equipo-de-trabajo.webp);
+    url(../assets/img/520876.webp);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -123,9 +123,8 @@ header .navbar {
   transition: 0.6s ease;
 }
 
-@media (max-width: 700px){
-  .first-glance h1{
+@media (max-width: 700px) {
+  .first-glance h1 {
     font-size: 50px;
   }
-
 }
