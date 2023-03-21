@@ -5,7 +5,12 @@
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/img/520876.webp);
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../assets/img/520876.webp);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,12 +30,12 @@ header .navbar {
   height: 13%;
 }
 
-.navbar-brand img{
+.navbar-brand img {
   width: 200px;
 }
 
-.navbar-brand h1{
-  color: #FFC857;
+.navbar-brand h1 {
+  color: #ffc857;
   font-size: 40px;
 }
 
@@ -42,15 +47,14 @@ header .navbar {
   padding-right: 30px;
 }
 
-
 .nav-link {
   color: #000000 !important;
   font-size: 20px;
   font-weight: 500;
   padding: 0.5em 1.2em;
-  background: #FFC857;
+  background: #ffc857;
   border: 2px solid;
-  border-color: #FFC857;
+  border-color: #ffc857;
   position: relative;
 }
 
@@ -75,27 +79,27 @@ header .navbar {
 }
 
 .first-glance h1 {
-  font-family: 'Times New Roman';
+  font-family: "Times New Roman";
   font-size: 70px;
   width: 45%;
   color: #fff;
   transition: 0.6s ease;
 }
 
-.first-glance span{
-color: #FFC857;
+.first-glance span {
+  color: #ffc857;
 }
 
 .text-p {
   font-size: 18px;
-  color: #FFC857;
+  color: #ffc857;
   width: 50%;
   margin: 2%;
   margin-left: 0%;
   margin-right: 0%;
 }
 
-.text-p p{
+.text-p p {
   margin-top: 10%;
 }
 
@@ -104,9 +108,9 @@ color: #FFC857;
   font-size: 25px;
   font-weight: 500;
   padding: 0.5em 1.2em;
-  background: #FFC857;
+  background: #ffc857;
   border: 2px solid;
-  border-color: #FFC857;
+  border-color: #ffc857;
   position: relative;
   text-decoration: none;
   transition: 0.6s ease;
@@ -117,4 +121,10 @@ color: #FFC857;
   color: rgb(0, 0, 0);
   box-shadow: 5px 5px 5px #ffc757af;
   transition: 0.6s ease;
+}
+
+@media (max-width: 700px) {
+  .first-glance h1 {
+    font-size: 50px;
+  }
 }
