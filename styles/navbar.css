@@ -122,3 +122,10 @@ header .navbar {
   box-shadow: 5px 5px 5px #ffc757af;
   transition: 0.6s ease;
 }
+
+@media (max-width: 700px){
+  .first-glance h1{
+    font-size: 50px;
+  }
+
+}
