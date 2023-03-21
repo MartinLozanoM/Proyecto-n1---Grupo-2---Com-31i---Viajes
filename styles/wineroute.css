@@ -1,4 +1,5 @@
 /* Estilos Generales */
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
 * {
   font-family: "Roboto", sans-serif;
 }
@@ -43,9 +44,10 @@ h1 {
 /* Main */
 
 .main-container {
-  background-color: #fbfcff;
+  background-color: rgb(198 201 207);
   margin-left: 10%;
   margin-right: 10%;
+  box-shadow: 7px 13px 37px #0000009d;
 }
 
 /* Ruta de Vinos */
@@ -60,6 +62,12 @@ h1 {
 
 .oenology img {
   width: 100%;
+}
+
+.oenology h2{
+  font-family: "Playball", cursive;
+  font-size: 60px;
+  color: #56070C;
 }
 
 /* Regiones */
@@ -117,7 +125,9 @@ h1 {
 
 .cellars-visit h2,
 h3 {
-  color: black;
+  font-family: "Playball", cursive;
+  font-size: 70px;
+  color: #56070C;
 }
 
 .cellars-visit img {

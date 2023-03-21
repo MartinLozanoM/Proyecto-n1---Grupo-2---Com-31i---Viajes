@@ -7,12 +7,7 @@
   padding-top: 40px;
   padding-bottom: 40px;
   padding-right: 140px;
-  background: rgb(192, 94, 15);
-  background: linear-gradient(
-    165deg,
-    rgba(192, 94, 15, 1) 0%,
-    rgba(25, 39, 43, 1) 100%
-  );
+
 }
 .form {
   max-height: 550px;
@@ -49,6 +44,29 @@
   }
   .form {
     max-height: 100%;
+  }
+}
+@media (max-width: 1024px){
+  .div_form{
+    padding-right: 20px;
+
+  }
+}
+@media (max-width:912px){
+  .div_form{
+    padding-right: 0px;
+  }
+}
+
+@media (max-width: 768px){
+  .div_form{
+    padding-right: 0px;
+
+  }
+}
+@media (max-width: 400px){
+  .btn{
+    width: 100%;
   }
 }
 
@@ -105,6 +123,7 @@ footer {
   font-weight: 500;
   color: whitesmoke;
   font-size: 18px;
+  text-align: start;
 }
 .text_carousel {
   font-size: 150px;
