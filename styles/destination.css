@@ -76,30 +76,6 @@ header .navbar {
   width: 100%;
 }
 
-.button {
-  margin: 3%;
-}
-
-.button a {
-  justify-content: flex-end;
-  color: #fff;
-  font-size: 25px;
-  font-weight: 500;
-  padding: 0.5em 1.2em;
-  background: #177e89;
-  border: 2px solid;
-  border-color: #177e89;
-  position: relative;
-  text-decoration: none;
-  transition: 0.6s ease;
-}
-
-.button a:hover {
-  margin: 10px;
-  color: rgb(0, 0, 0);
-  box-shadow: 5px 5px 5px #177e8972;
-  transition: 0.6s ease;
-}
 /* END NAVBAR */
 /* START ITINERARY */
 .title-destination {
