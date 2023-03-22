@@ -1,0 +1,479 @@
+/* GENERAL STYLES */
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto", sans-serif;
+}
+/* START NAVBAR */
+header {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../assets/img/equipo-de-trabajo.webp);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  background: transparent !important;
+}
+
+.navbar:hover {
+  backdrop-filter: blur(50px);
+}
+
+header .navbar {
+  width: 100%;
+  height: 13%;
+}
+
+.navbar-brand img {
+  width: 200px;
+}
+
+.navbar-brand h1 {
+  color: #177e89;
+  font-size: 40px;
+}
+
+.navbar-collapse {
+  justify-content: right;
+}
+
+.nav-item {
+  padding-right: 30px;
+}
+
+.nav-link {
+  color: #ffffff !important;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: #177e89;
+  border: 2px solid;
+  border-color: #177e89;
+  position: relative;
+}
+
+.nav-link:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.341);
+  transition: 200ms ease;
+}
+
+.nav-link:hover:before {
+  width: 100%;
+}
+
+.first-glance {
+  padding-top: 5%;
+  padding-left: 2%;
+}
+
+.first-glance h1 {
+  font-family: "Times New Roman";
+  font-size: 70px;
+  width: 45%;
+  color: #fff;
+  transition: 0.6s ease;
+}
+
+.first-glance span {
+  color: #177e89;
+}
+
+.text-p {
+  font-size: 18px;
+  color: #ffffff;
+  width: 50%;
+  margin: 3%;
+  margin-left: 0%;
+  margin-right: 0%;
+}
+
+.text-p p {
+  margin-top: 10%;
+}
+
+.button {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: #177e89;
+  border: 2px solid;
+  border-color: #177e89;
+  position: relative;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+
+.button:hover {
+  margin: 10px;
+  color: rgb(0, 0, 0);
+  box-shadow: 5px 5px 5px #177e8972;
+  transition: 0.6s ease;
+}
+
+.Payment-Methods img {
+  margin: 3%;
+  margin-top: 2%;
+  margin-left: 5%;
+  width: 70px;
+}
+
+.container-Payments {
+  padding-left: 5%;
+  padding-top: 2%;
+}
+
+.Payments {
+  background-color: #177e89;
+  text-align: center;
+  margin-top: 2%;
+}
+.Payments h2 {
+  color: #fff;
+}
+
+.image-text {
+  display: flex;
+}
+
+.image-text img {
+  width: 130vh;
+  object-fit: contain;
+}
+
+.image-text p {
+  font-size: 30px;
+  margin: 3px;
+}
+
+.image-text h2 {
+  text-align: center;
+  color: #23395b;
+  padding-top: 50%;
+}
+/* END NAVBAR */
+/* START CARDS */
+.title h2 {
+  text-align: center;
+  margin: 3%;
+  margin-bottom: 0%;
+  font-family: "Playball", cursive;
+  font-size: 50px;
+  color: #23395b;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  background-color: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: 300ms;
+  margin: 15px 15px;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 15px #177e89;
+  transform: translatey(-15px);
+  border: solid rgb(0, 0, 0) 1px;
+}
+
+.card .head {
+  height: 125px;
+  width: 100%;
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #177e89;
+  bottom: 0;
+}
+
+.head .img {
+  position: absolute;
+  background: #177e89;
+  padding: 2px;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  bottom: -30%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.head .img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.description {
+  text-align: center;
+  padding: 40px 10px 10px;
+  height: 55%;
+  border-bottom: solid 1px #51515131;
+}
+
+.description h3 {
+  margin: 1%;
+  font-size: 25px;
+  color: #177e89;
+}
+.contact {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.contact a {
+  text-decoration: none;
+  color: #fff;
+  padding: 3% 5%;
+  border-radius: 10%;
+  background-color: #177e89;
+  transition: 300ms;
+}
+
+.contact a:hover {
+  background-color: #11626b;
+  color: #fff;
+}
+/* END CARDS */
+/* START FORM */
+.register-form {
+  width: 100%;
+  padding: 30px;
+  border-radius: 4px;
+  color: #177e89;
+}
+
+.register-form h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.info {
+  width: 100%;
+  background: #f4f4fd;
+  padding: 15px;
+  border: 0;
+  border-radius: 25px;
+  margin-bottom: 18px;
+  outline: none;
+}
+
+.register-form p {
+  height: 35px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 35px;
+}
+
+.register-form a {
+  color: #323031;
+  text-decoration: none;
+}
+
+.register-form a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.register-form .botons {
+  width: 100%;
+  background: #177e89;
+  border: 0;
+  border-radius: 25px;
+  width: 250px;
+  padding: 15px;
+  color: white;
+  margin-top: 25px;
+  font-size: 16px;
+  box-shadow: 0 0 20px rgba(201, 199, 253, 0.5);
+}
+.register-form .botons:hover {
+  background: #ffffff;
+  color: #177e89;
+  border: 1px solid #177e89;
+}
+.title_about {
+  font-family: "Playball", cursive;
+  font-size: 50px;
+  color: #23395b;
+}
+.text_about_form {
+  font-family: "Playball", cursive;
+  font-size: 35px;
+  color: #177e89;
+  font-weight: 50;
+}
+.image_form {
+  height: auto;
+  width: 100;
+  background-image: url(/assets/img/trabajo\ en\ equipo.jpg);
+  background-size: cover;
+  background-position-x: 40%;
+}
+/* END FORM */
+/* START FOOTER */
+footer {
+  width: 100%;
+}
+.container_footer {
+  background-color: #23395b;
+  padding: 30px;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.box_copyrigth {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  padding: 0px 20px;
+}
+
+.box_copyrigth p {
+  margin-top: 10px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.box_copyrigth hr {
+  border: none;
+  height: 1px;
+  background-color: whitesmoke;
+}
+.text_footer {
+  color: whitesmoke;
+}
+.icon_whatsap:hover {
+  color: chartreuse;
+  zoom: 120%;
+}
+.icon_git:hover {
+  color: black;
+  zoom: 120%;
+}
+.icon_mail:hover {
+  color: rgb(248, 71, 71);
+  zoom: 120%;
+}
+.logo {
+  width: 100%;
+}
+.text {
+  margin-top: 20px;
+  font-weight: 500;
+  color: whitesmoke;
+  font-size: 18px;
+  text-align: start;
+}
+.text_carousel {
+  font-size: 150px;
+}
+.map {
+  max-width: 280px;
+}
+
+@media (max-width: 575px) {
+  .map {
+    margin-bottom: 10px;
+  }
+  .text_footer h2 {
+    text-align: center;
+  }
+}
+/**redes**/
+.icon_redes {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+}
+.icon_redes:hover {
+  zoom: 120%;
+}
+/* END FOOTER */
+/*? MEDIA QUERIES */
+/*? Navbar */
+@media (max-width: 750px) {
+  .first-glance h1 {
+    font-size: 50px;
+    width: 60%;
+  }
+  .first-glance p {
+    font-size: 15px;
+    padding-top: 3%;
+  }
+}
+@media (max-width: 1000px) {
+  .image-text h2 {
+    padding-top: 0%;
+  }
+  .image-text img {
+    width: 50vh;
+  }
+}
+
+@media (max-width: 850px) {
+  .image-text p {
+    font-size: 17px;
+    text-align: center;
+  }
+  .image-text {
+    flex-wrap: wrap;
+  }
+  .image-text h2 {
+    padding-top: 0%;
+  }
+}
+
+@media (max-width: 780px) {
+  .image-text {
+    flex-wrap: wrap;
+  }
+  .image-text img {
+    width: 40vh;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 350px) {
+  .image-text {
+    flex-wrap: wrap;
+  }
+  .image-text img {
+    width: 30vh;
+  }
+}
+/*? Form */
+@media (max-width: 560px) {
+  .image_form {
+    display: none;
+  }
+}
