@@ -140,3 +140,12 @@ footer {
     text-align: center;
   }
 }
+/**redes**/
+.icon_redes{
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+}
+.icon_redes:hover{
+  zoom: 120%;
+}
