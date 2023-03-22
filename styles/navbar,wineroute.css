@@ -114,3 +114,13 @@
     box-shadow: 5px 5px 5px #56070c99;
     transition: 0.6s ease;
   }
+  @media (max-width: 750px){
+    .first-glance h1{
+      font-size: 40px;
+      width: 60%;
+    }
+    .first-glance a{
+      font-size: 20px;
+      margin: 1%;
+    }
+  }

@@ -7,7 +7,7 @@
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
    url(../assets/img/AEEZ7DMC7ZAGTAX5FNJXSUFPSQ.jpg);
-  height: 40vh;
+  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -67,4 +67,29 @@ header .navbar {
 
 .nav-link:hover:before {
   width: 100%;
+}
+
+.button{
+  margin: 3%;
+}
+
+.button a{
+  justify-content: flex-end;
+  color: #fff;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: #177E89;
+  border: 2px solid;
+  border-color: #177E89;
+  position: relative;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+
+.button a:hover {
+  margin: 10px;
+  color: rgb(0, 0, 0);
+  box-shadow: 5px 5px 5px #177e8972;
+  transition: 0.6s ease;
 }

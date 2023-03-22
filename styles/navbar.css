@@ -123,8 +123,16 @@ header .navbar {
   transition: 0.6s ease;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 850px) {
   .first-glance h1 {
     font-size: 50px;
+  }
+}
+@media (max-width: 500px){
+  .first-glance h1{
+    font-size: 40px;
+  }
+  .first-glance p{
+    font-size: 15px;
   }
 }
