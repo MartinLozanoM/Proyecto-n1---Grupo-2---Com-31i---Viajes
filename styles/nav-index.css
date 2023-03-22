@@ -83,9 +83,15 @@ header .navbar {
   transition: 0.6s ease;
 }
 
-@media (max-width: 500px){
+
+@media (max-width: 750px){
   .first-glance h1{
     font-size: 50px;
+    width: 60%;
+  }
+  .first-glance p{
+    font-size: 15px;
+    padding-top: 3%;
   }
 }
 
@@ -168,17 +174,45 @@ color: #177E89;
 }
 
 @media (max-width: 1000px){
+  .image-text h2{
+    padding-top: 0%;
+  }
   .image-text img{
-    width: 35vh;
+    width: 50vh;
   }
 }
 
 @media (max-width: 850px){
   .image-text p{
     font-size: 17px;
+    text-align: center;
+  }
+  .image-text{
+    flex-wrap: wrap;
   }
   .image-text h2{
     padding-top: 0%;
   }
-
 }
+
+@media (max-width: 780px){
+  .image-text{
+    flex-wrap: wrap;
+  }
+  .image-text img{
+    width: 40vh;
+    object-fit: contain;
+  }
+}
+
+
+@media (max-width: 350px){
+  .image-text{
+    flex-wrap: wrap;
+  }
+  .image-text img{
+    width: 30vh;
+  }
+}
+
+
