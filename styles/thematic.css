@@ -5,6 +5,11 @@
     font-family: "Roboto", sans-serif;
 }
 
+.destination {
+    padding: 30px;
+}
+
+
 .travels-cards {
     letter-spacing: 0.03em;
     line-height: 1.6;
@@ -56,4 +61,9 @@
     padding: 0 1rem;
     font-size: 16px;
     font-weight: 300;
+}
+
+.package-card a {
+    text-decoration: none;
+    color: #23395b;
 }

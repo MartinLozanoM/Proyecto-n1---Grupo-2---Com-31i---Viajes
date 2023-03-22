@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"/>
-    <link rel="stylesheet" href="./styles/itinerario.css">
         <!-- Bootstrap 5.1.3 -->
         <link
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -29,13 +27,14 @@
       <!-- CSS Styles -->
       <link rel="stylesheet" href="./styles/style.css" />
       <link rel="stylesheet" href="./styles/navbar,destination.css">
+      <link rel="stylesheet" href="./styles/itinerario.css">
       <!-- Fontawesome -->
       <script
         src="https://kit.fontawesome.com/18568fcf9c.js"
         crossorigin="anonymous"
       ></script>
     <script src="https://kit.fontawesome.com/26949654fa.js" crossorigin="anonymous"></script>
-    <title>Destination2</title>
+    <title>Destino Bariloche</title>
 </head>
 
 <body>
@@ -65,21 +64,28 @@
      <div class="button"><a href="#itinerary">ver mas</a></div>
   </header>
     <main>
-        <h1 class="title-destination" id="itinerary">Bariloche 2023</h1>
-        <section class="container-slider">
-            <div class="slider-destination">
-                <div class="slider">
-                    <img id="slider-1" src="./assets/img/Bariloche1.jpg" alt="">
-                    <img id="slider-2" src="./assets/img/Bariloche2.jpg" alt="">
-                    <img id="slider-3" src="./assets/img/Bariloche3.jpg" alt="">
-                </div>
-                <div class="slider-nav">
-                    <a href="#slider-1"></a>
-                    <a href="#slider-2"></a>
-                    <a href="#slider-3"></a> 
-                </div>
+        <h1 class="title-destination">Bariloche 2023</h1>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/Bariloche1.jpg" class="d-block w-100" alt="banner 1">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/Bariloche2.jpg" class="d-block w-100" alt="banner 2">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/Bariloche3.jpg" class="d-block w-100" alt="banner 3">
+              </div>
             </div>
-        </section>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>   
         <section class="container-data">
             <div class="information">
                 <div class="options-title">
@@ -96,13 +102,13 @@
                     <h2>Precio Base Doble</h2>
                 </div>
                 <div class="options">
-                    <p>USDXXXX</p>
+                    <p>500 USD</p>
                 </div>
             </div>
             <div class="information">
                 <div class="options-title">
                     <i class="fa-solid fa-utensils"></i>
-                    <h2>Comidas Incluidas</h2>
+                    <h2>Comidas Incluídas</h2>
                 </div>
                 <div class="options">
                     <p>Desayunos</p>
@@ -128,18 +134,18 @@
             </div>
         </section>
         <div class="itinerario">
-            <h2>itinerario</h2>
+            <h2>Itinerario</h2>
             <ul class="conteiner-list">
-                <li><strong>DÍA 1: LUNES 17/04:</strong>Vuelo Bs As // San Carlos de Bariloche. Arribo y Noche en Bariloche.</li>
-                <li><strong>DÍA 2: MARTES 18/04:</strong>Por la mañana, traslado y paseo por la costanera al lado del Lago Nahuel Huapi.</li>
-                <li><strong>DÍA 3: MIERCOLES 19/04:</strong>Por la mañana, traslado y paseo por el centro civico. Regreso 15:00hs. noche cena show.</li>
-                <li><strong>DÍA 4: JUEVES 20/04:</strong>dia libre.</li>
-                <li><strong>DÍA 5: VIERNES 21/04:</strong>traslado por la mañana y Excursión por el Cerro Catedral. vuelta 17:00hs. noche libre.</li>
-                <li><strong>DÍA 6: SABADO 22/04:.</strong>traslado por la mañana y caminata por Cascada los Cántaros. vuelta 15:00hs. después de las 17:00hs traslado y excursión por islas victoria.</li>
-                <li><strong>DÍA 7: DOMINGO 23/04:</strong>mañana libre. Regreso a ----. recogida por hotel 14:30hs.</li>
+                <li><strong>DÍA 1: LUNES 17/04:</strong> Vuelo Bs As // San Carlos de Bariloche. Arribo y Noche en Bariloche.</li>
+                <li><strong>DÍA 2: MARTES 18/04:</strong> Por la mañana, traslado y paseo por la costanera al lado del Lago Nahuel Huapi.</li>
+                <li><strong>DÍA 3: MIERCOLES 19/04:</strong> Por la mañana, traslado y paseo por el Centro Cívico. Regreso 15:00hs. Noche cena show.</li>
+                <li><strong>DÍA 4: JUEVES 20/04:</strong> Día libre.</li>
+                <li><strong>DÍA 5: VIERNES 21/04:</strong> Traslado por la mañana y Excursión por el Cerro Catedral. Vuelta 17:00hs. Noche libre.</li>
+                <li><strong>DÍA 6: SABADO 22/04:.</strong> Traslado por la mañana y caminata por Cascada los Cántaros. Vuelta 15:00hs. Después de las 17:00hs traslado y excursión por Islas Victoria.</li>
+                <li><strong>DÍA 7: DOMINGO 23/04:</strong> Mañana libre. Regreso al hotel. Recogida por hotel 14:30hs.</li>
         </div>
         <div class="limit">
-            <h2>fecha limite para anotarte</h2>
+            <h2>Fecha límite para anotarte</h2>
             <p><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
                     class="bi bi-calendar-week" viewBox="0 0 16 16">
                     <path
@@ -154,7 +160,7 @@
                 <h2>EL PAQUETE INCLUYE:</h2>
                 <lu>
                     <li>1 reunión de presentación de grupo.</li>
-                    <li>alojamiento.</li>
+                    <li>Alojamiento.</li>
                     <li>buffet libre.</li>
                     <li>Tours privados, según itinerario</li>
                     <li>Servicios de transporte y traslados en privado, según itinerario.</li>
@@ -166,7 +172,7 @@
                 <lu>
                     <li>Cualquier otro que no esté señalado en el itinerario.</li>
                     <li>Traslados aeropuerto en Argentina.</li>
-                    <li>Seguro medico al viajero.</li>
+                    <li>Seguro méico al viajero.</li>
                 </lu>
             </div>
         </section>
@@ -211,7 +217,7 @@
                   </div>
                 </div>
                 <div class="text_footer col-12 col-md-4 col-sm-6">
-                  <h2 class="me-5">Contactanos</h2>
+                  <h2 class="me-5">Contáctanos</h2>
                   <div class="d-flex flex-column text-start ps-5">
                     <p class="pt-1">
                       <i class="fa-solid fa-house"></i> C 23 940 Tafí Viejo. Tucumán.
@@ -235,7 +241,7 @@
                 <div class="text_footer ps-5 col-12 col-md-4 col-sm-6">
                   <h2 class="mb-3 me-5 ps-0 text-light">Desarrolladores</h2>
                   <div class="row text-start fw-semibold">
-                    <p class="col-4">Martin</p>
+                    <p class="col-4">Martín</p>
                     <div class="col-8 text-center">
                       <a href="https://github.com/MartinLozanoM"
                         ><i class="text_footer icon_git fs-3 fa-brands fa-github"></i
@@ -283,7 +289,7 @@
                         ></i>
                       </a>
                     </div>
-                    <p class="col-4">Jeremias</p>
+                    <p class="col-4">Jeremías</p>
                     <div class="col-8 text-center">
                       <a href="https://github.com/jerehjuarez"
                         ><i class="text_footer icon_git fs-3 fa-brands fa-github"></i
