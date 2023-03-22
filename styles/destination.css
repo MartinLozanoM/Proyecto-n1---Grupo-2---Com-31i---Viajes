@@ -4,6 +4,9 @@
   padding: 0px;
   font-family: "Roboto", sans-serif;
 }
+main {
+  padding-bottom: 20px;
+}
 /* START NAVBAR */
 header {
   background-image: linear-gradient(
