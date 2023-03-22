@@ -7,7 +7,12 @@
   padding-top: 40px;
   padding-bottom: 40px;
   padding-right: 140px;
-
+}
+.div_form form div input {
+  color: #ffffff;
+}
+.div_form form div input:focus {
+  color: #ffffff;
 }
 .form {
   max-height: 550px;
@@ -33,6 +38,11 @@
   height: 45px;
 }
 
+.div_form form button:hover {
+  background-color: #ffffff !important;
+  color: #c01928;
+}
+
 @media (max-width: 991px) {
   .img_form {
     object-fit: cover;
@@ -46,26 +56,24 @@
     max-height: 100%;
   }
 }
-@media (max-width: 1024px){
-  .div_form{
+@media (max-width: 1024px) {
+  .div_form {
     padding-right: 20px;
-
   }
 }
-@media (max-width:912px){
-  .div_form{
+@media (max-width: 912px) {
+  .div_form {
     padding-right: 0px;
   }
 }
 
-@media (max-width: 768px){
-  .div_form{
+@media (max-width: 768px) {
+  .div_form {
     padding-right: 0px;
-
   }
 }
-@media (max-width: 400px){
-  .btn{
+@media (max-width: 400px) {
+  .btn {
     width: 100%;
   }
 }
@@ -139,4 +147,13 @@ footer {
   .text_footer h2 {
     text-align: center;
   }
+}
+/**redes**/
+.icon_redes{
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+}
+.icon_redes:hover{
+  zoom: 120%;
 }

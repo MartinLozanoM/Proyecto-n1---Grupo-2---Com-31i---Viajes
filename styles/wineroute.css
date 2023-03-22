@@ -1,3 +1,4 @@
+/* EMPIEZA WINE-ROUTE CSS */
 /* Estilos Generales */
 @import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
 * {
@@ -19,18 +20,6 @@ h1 {
   font-size: 2.5rem;
 }
 
-@media (max-width: 700px){
-  .first-glance h1{
-    font-size: 50px;
-  }
-
-  .first-glance .text-p{
-    margin: 2%;
-    width: 40%;
-  }
-
-}
-
 .section-title {
   font-size: 2rem;
   padding: 15px 0;
@@ -38,19 +27,6 @@ h1 {
 
 .section-description {
   font-size: 1.2rem;
-}
-
-.btn-info {
-  font-size: 1.1rem;
-  margin: 20px;
-}
-
-.black-text {
-  color: black;
-}
-
-.texto-blanco {
-  color: white;
 }
 
 /* Main */
@@ -70,21 +46,22 @@ h1 {
 /* Turismo Enologico */
 .oenology {
   color: black;
+  margin-bottom: 20px;
 }
 
 .oenology img {
   width: 100%;
 }
 
-.oenology h2{
+.oenology h2 {
   font-family: "Playball", cursive;
-  font-size: 60px;
-  color: #56070C;
+  font-size: 3.5rem;
+  color: #56070c;
 }
 
 /* Regiones */
 .regions {
-  padding: 40px 40px 60px 40px;
+  padding: 20px 20px 40px 20px;
 }
 
 .regions .region-column {
@@ -98,14 +75,14 @@ h1 {
 }
 
 .regions .region-column:hover {
-  color: white;
+  color: #ffffff;
   background-color: #937666;
 }
 
 .regions i {
   font-size: 2.5rem;
   color: red;
-  background-color: #fbfcff;
+  background-color: rgb(198 201 207);
   padding: 8px 19px;
   border-radius: 50%;
 }
@@ -132,14 +109,18 @@ h1 {
 
 /* Bodegas */
 .cellars-visit {
-  padding: 40px;
+  padding: 10px;
 }
 
-.cellars-visit h2,
-h3 {
+.cellars-visit h2 {
   font-family: "Playball", cursive;
   font-size: 70px;
-  color: #56070C;
+  color: #56070c;
+}
+
+.cellars-visit h3 {
+  color: black;
+  font-size: 70px;
 }
 
 .cellars-visit img {
@@ -196,20 +177,24 @@ h3 {
   margin: 10px;
 }
 
+.btn-info {
+  font-size: 1.1rem;
+}
+
 .more-cellars {
   background-color: #56070c;
-  color: #fff;
+  color: #ffffff;
   border-color: #56070c;
 }
 
 .more-cellars:hover {
-  background-color: #fff;
+  background-color: rgb(198 201 207);
   color: #56070c;
   border-color: #56070c;
 }
 
 .more-cellars:focus {
-  background-color: #fff;
+  background-color: #ffffff;
   color: #56070c;
   border-color: #56070c;
 }
@@ -222,3 +207,15 @@ h3 {
     font-size: 40px;
   }
 }
+
+@media (max-width: 700px) {
+  .first-glance h1 {
+    font-size: 50px;
+  }
+
+  .first-glance .text-p {
+    margin: 2%;
+    width: 40%;
+  }
+}
+/* TERMINA WINE-ROUTE CSS */
