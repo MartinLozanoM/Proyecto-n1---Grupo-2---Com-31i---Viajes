@@ -316,20 +316,18 @@ header .navbar {
 }
 
 /*form suscripción*/
-.form_img{
-    height: 550px;
-    width: 100;
-    background-image: url(/assets/img/vino3.jpg);
-    background-size:cover;
-    background-position: center;
-    background-repeat: no-repeat;
-
+.form_img {
+  height: 550px;
+  width: 100;
+  background-image: url(/assets/img/vino3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .div_form {
   padding-top: 40px;
   padding-bottom: 40px;
-  
 }
 .div_form form div input {
   color: #ffffff;
@@ -366,7 +364,7 @@ header .navbar {
   background-color: #ffffff !important;
   color: #c01928;
 }
-/* style footer */
+/* START FOOTER */
 footer {
   width: 100%;
 }
@@ -383,16 +381,35 @@ footer {
   text-align: center;
   padding: 0px 20px;
 }
+
 .box_copyrigth p {
   margin-top: 10px;
   color: whitesmoke;
   text-align: center;
 }
+
 .box_copyrigth hr {
   border: none;
   height: 1px;
   background-color: whitesmoke;
 }
+
+.footer-column2 {
+  margin: 2rem 0px;
+}
+
+.footer-column2 h2 {
+  margin-bottom: 1.5rem;
+}
+
+.developer-container {
+  display: flex;
+}
+
+.developer-container a {
+  margin: 0px 0.3rem;
+}
+
 .text_footer {
   color: whitesmoke;
 }
@@ -416,13 +433,10 @@ footer {
   font-weight: 500;
   color: whitesmoke;
   font-size: 18px;
-  text-align: start;
+  text-align: center;
 }
 .text_carousel {
   font-size: 150px;
-}
-.map {
-  max-width: 280px;
 }
 /**redes**/
 .icon_redes {
@@ -433,6 +447,7 @@ footer {
 .icon_redes:hover {
   zoom: 120%;
 }
+/* END FOOTER */
 /*? MEDIA QUERIES */
 /*? Navbar */
 @media (max-width: 750px) {
@@ -467,7 +482,6 @@ footer {
 }
 /*? Form */
 @media (max-width: 991px) {
-
   .form {
     max-height: 100%;
   }
@@ -475,14 +489,5 @@ footer {
 @media (max-width: 400px) {
   .btn {
     width: 100%;
-  }
-}
-/*? Footer */
-@media (max-width: 575px) {
-  .map {
-    margin-bottom: 10px;
-  }
-  .text_footer h2 {
-    text-align: center;
   }
 }

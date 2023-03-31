@@ -189,10 +189,8 @@ section {
   display: flex;
 }
 
-
 /* END ITINERARY */
-/* style footer */
-
+/* START FOOTER */
 footer {
   width: 100%;
 }
@@ -221,6 +219,23 @@ footer {
   height: 1px;
   background-color: whitesmoke;
 }
+
+.footer-column2 {
+  margin: 2rem 0px;
+}
+
+.footer-column2 h2 {
+  margin-bottom: 1.5rem;
+}
+
+.developer-container {
+  display: flex;
+}
+
+.developer-container a {
+  margin: 0px 0.3rem;
+}
+
 .text_footer {
   color: whitesmoke;
 }
@@ -244,13 +259,10 @@ footer {
   font-weight: 500;
   color: whitesmoke;
   font-size: 18px;
-  text-align: start;
+  text-align: center;
 }
 .text_carousel {
   font-size: 150px;
-}
-.map {
-  max-width: 280px;
 }
 /**redes**/
 .icon_redes {
@@ -261,22 +273,14 @@ footer {
 .icon_redes:hover {
   zoom: 120%;
 }
-/*? MEDIA QUERIES */
-@media (max-width: 575px) {
-  .map {
-    margin-bottom: 10px;
-  }
-  .text_footer h2 {
-    text-align: center;
-  }
-}
+/* END FOOTER */
 /** START FORM */
 
 .register-form {
   width: 50%;
   padding: 30px;
   border-radius: 4px;
-  color: #177e89;  
+  color: #177e89;
   background-size: cover;
   background-position: center;
   margin: auto;
@@ -286,8 +290,8 @@ footer {
   box-shadow: 7px 13px 37px #000;
 }
 
-@media (max-width: 800px){
-  .register-form{
+@media (max-width: 800px) {
+  .register-form {
     width: 100%;
   }
 }

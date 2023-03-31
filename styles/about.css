@@ -369,6 +369,23 @@ footer {
   height: 1px;
   background-color: whitesmoke;
 }
+
+.footer-column2 {
+  margin: 2rem 0px;
+}
+
+.footer-column2 h2 {
+  margin-bottom: 1.5rem;
+}
+
+.developer-container {
+  display: flex;
+}
+
+.developer-container a {
+  margin: 0px 0.3rem;
+}
+
 .text_footer {
   color: whitesmoke;
 }
@@ -392,27 +409,15 @@ footer {
   font-weight: 500;
   color: whitesmoke;
   font-size: 18px;
-  text-align: start;
+  text-align: center;
 }
 .text_carousel {
   font-size: 150px;
 }
-.map {
-  max-width: 280px;
-}
-
-@media (max-width: 575px) {
-  .map {
-    margin-bottom: 10px;
-  }
-  .text_footer h2 {
-    text-align: center;
-  }
-}
 /**redes**/
 .icon_redes {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   margin: 10px;
 }
 .icon_redes:hover {
@@ -479,8 +484,8 @@ footer {
 }
 /*Icons redes*/
 
-@media (max-width: 679px){
-  .icon_redes{
+@media (max-width: 679px) {
+  .icon_redes {
     height: 50px;
     width: 50px;
   }
