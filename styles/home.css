@@ -222,6 +222,23 @@ footer {
   height: 1px;
   background-color: whitesmoke;
 }
+
+.footer-column2 {
+  margin: 2rem 0px;
+}
+
+.footer-column2 h2 {
+  margin-bottom: 1.5rem;
+}
+
+.developer-container {
+  display: flex;
+}
+
+.developer-container a {
+  margin: 0px 0.3rem;
+}
+
 .text_footer {
   color: whitesmoke;
 }
@@ -245,13 +262,10 @@ footer {
   font-weight: 500;
   color: whitesmoke;
   font-size: 18px;
-  text-align: start;
+  text-align: center;
 }
 .text_carousel {
   font-size: 150px;
-}
-.map {
-  max-width: 280px;
 }
 /**redes**/
 .icon_redes {
@@ -276,14 +290,5 @@ footer {
   }
   .first-glance p {
     font-size: 15px;
-  }
-}
-/*? Footer */
-@media (max-width: 575px) {
-  .map {
-    margin-bottom: 10px;
-  }
-  .text_footer h2 {
-    text-align: center;
   }
 }
