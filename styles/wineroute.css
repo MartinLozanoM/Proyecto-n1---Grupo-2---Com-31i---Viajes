@@ -316,11 +316,20 @@ header .navbar {
 }
 
 /*form suscripción*/
+.form_img{
+    height: 550px;
+    width: 100;
+    background-image: url(/assets/img/vino3.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
 
 .div_form {
   padding-top: 40px;
   padding-bottom: 40px;
-  padding-right: 140px;
+  
 }
 .div_form form div input {
   color: #ffffff;
@@ -329,6 +338,7 @@ header .navbar {
   color: #ffffff;
 }
 .form {
+  max-width: 100%;
   max-height: 550px;
   background-color: rgba(0, 0, 0, 0.877);
   padding: 10px;
@@ -457,32 +467,9 @@ footer {
 }
 /*? Form */
 @media (max-width: 991px) {
-  .img_form {
-    object-fit: cover;
-    max-height: 100%;
-  }
-  .div_form {
-    width: 100%;
-    padding-right: 0px;
-  }
+
   .form {
     max-height: 100%;
-  }
-}
-@media (max-width: 1024px) {
-  .div_form {
-    padding-right: 20px;
-  }
-}
-@media (max-width: 912px) {
-  .div_form {
-    padding-right: 0px;
-  }
-}
-
-@media (max-width: 768px) {
-  .div_form {
-    padding-right: 0px;
   }
 }
 @media (max-width: 400px) {
